@@ -1,0 +1,55 @@
+.contenedor{
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  
+}
+.listadereproduccion{
+  min-height: 200px;
+  max-height: 280px;
+  overflow: auto;
+}
+.cardCanciones:hover{
+  cursor: pointer;
+  background-color: #404040;
+}
+.cardCanciones{
+  background-color: #FFD700;
+}
+
+
+/* Estilo para navegadores WebKit (Chrome, Safari) */
+.menuHorizontal::-webkit-scrollbar {
+  height: 8px; /* Altura de la barra de desplazamiento */
+}
+
+.menuHorizontal::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color del "pulgar" de la barra de desplazamiento */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.menuHorizontal::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color del "pulgar" al pasar el mouse */
+}
+
+.menuHorizontal::-webkit-scrollbar-track {
+  background: transparent; /* Fondo de la pista de la barra de desplazamiento */
+}
+*{
+  color: #FF4500;
+  background-color: #1A1A1A;
+}
+.btn-agregar{
+  background-color: #ddb900;
+}
+--primary-100:#FFD700;
+--primary-200:#ddb900;
+--primary-300:#917800;
+--accent-100:#FF4500;
+--accent-200:#ffe49a;
+--text-100:#FFFFFF;
+--text-200:#e0e0e0;
+--bg-100:#1A1A1A;
+--bg-200:#292929;
+--bg-300:#404040;
+  
